@@ -1,4 +1,4 @@
-@-moz-document domain(curse.hipchat.com) {
+@-moz-document regexp("https?://.*\\.hipchat\\.com/chat") {
 /* ===[ General ]=== */
 
 #tooltip {
