@@ -4,7 +4,8 @@
 #tooltip {
     background-color: #10171E;
     border: 1px solid #070A0D;
-    -webkit-box-shadow: 0 4px 10px #19232E; }
+    -webkit-box-shadow: 0 4px 10px #19232E;
+    box-shadow: 0 4px 10px #19232E; }
 
 /* ===[ Chat ]=== */
 
@@ -58,7 +59,8 @@ body.chat .top_bar, body.chat .top_bar_private {
 
 body.chat .menu {
     color: white;
-    -webkit-box-shadow: 0 4px 10px #19232E }
+    -webkit-box-shadow: 0 4px 10px #19232E
+    box-shadow: 0 4px 10px #19232E }
 
 body.chat #search_ui {
     background-color: #22303F;
@@ -277,7 +279,8 @@ body.chat #lobby h1, body.chat #lobby h2, body.chat #lobby h2 a {
 body.chat .menu {
     background-color: #2c3e50;
     border: 1px solid #19232E;
-    -webkit-box-shadow: 0 4px 10px #1A1A1A; }
+    -webkit-box-shadow: 0 4px 10px #1A1A1A;
+    box-shadow: 0 4px 10px #1A1A1A; }
 
 /* ===[ Settings Dialog ]=== */
 
@@ -305,7 +308,8 @@ input[type=text], input[type=password], textarea {
     border: 1px solid #344960 }
 
 input[type=submit].gray, input[type=button].gray, button.gray, .invite > .silver {
-    -webkit-filter: brightness(0.5) }
+    -webkit-filter: brightness(0.5)
+    filter: brightness(0.5) }
 
 input[type=submit].silver, input[type=button].silver, button.silver {
     color: white;
@@ -316,13 +320,15 @@ input[type=submit].silver:hover, input[type=button].silver:hover, button.silver:
     border: 1px solid #2B3D50 }
 
 button.silver > img, body.chat .android, .admin_gear, .prettyprinted span {
-    -webkit-filter: invert(100%) }
+    -webkit-filter: invert(100%)
+    filter: invert(100%) }
 
 /* ===[ Filters ]=== */
 
 body.chat #status_dropdown .toggle {
     margin-top: 2px;
-    -webkit-filter: invert(100%) }
+    -webkit-filter: invert(100%)
+    filter: invert(100%) }
 
 /* ===[ Misc ]=== */
 
