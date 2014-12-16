@@ -59,7 +59,7 @@ body.chat .top_bar, body.chat .top_bar_private {
 
 body.chat .menu {
     color: white;
-    -webkit-box-shadow: 0 4px 10px #19232E
+    -webkit-box-shadow: 0 4px 10px #19232E;
     box-shadow: 0 4px 10px #19232E }
 
 body.chat #search_ui {
@@ -308,8 +308,8 @@ input[type=text], input[type=password], textarea {
     border: 1px solid #344960 }
 
 input[type=submit].gray, input[type=button].gray, button.gray, .invite > .silver {
-    -webkit-filter: brightness(0.5)
-    filter: brightness(0.5) }
+    -webkit-filter: brightness(0.5);
+    filter: brightness(0.5); }
 
 input[type=submit].silver, input[type=button].silver, button.silver {
     color: white;
@@ -320,15 +320,15 @@ input[type=submit].silver:hover, input[type=button].silver:hover, button.silver:
     border: 1px solid #2B3D50 }
 
 button.silver > img, body.chat .android, .admin_gear, .prettyprinted span {
-    -webkit-filter: invert(100%)
-    filter: invert(100%) }
+    -webkit-filter: invert(100%);
+    filter: invert(100%); }
 
 /* ===[ Filters ]=== */
 
 body.chat #status_dropdown .toggle {
     margin-top: 2px;
-    -webkit-filter: invert(100%)
-    filter: invert(100%) }
+    -webkit-filter: invert(100%);
+    filter: invert(100%); }
 
 /* ===[ Misc ]=== */
 
