@@ -223,7 +223,7 @@ body.chat #autocomplete div.selected, body.chat #autocomplete div.selected:hover
 
 #chats .systemMessage-red .messageBlock, #chats .systemMessage-red .nameBlock {
     color: white !important;
-    background: #EA1C10 !important }
+    background: hsl(0, 50%, 30%) !important }
 
 #chats .systemMessage-red .nameBlock p {
     color: white !important }
