@@ -319,7 +319,7 @@ input[type=submit].silver, input[type=button].silver, button.silver {
 input[type=submit].silver:hover, input[type=button].silver:hover, button.silver:hover {
     border: 1px solid #2B3D50 }
 
-button.silver > img, body.chat .android, .admin_gear, .prettyprinted span {
+button.silver > img, body.chat .android, .admin_gear {
     -webkit-filter: invert(100%);
     filter: invert(100%); }
 
